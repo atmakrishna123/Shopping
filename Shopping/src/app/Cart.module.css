@@ -1,0 +1,135 @@
+.backgroundImg {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.body {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    max-width: 100%;
+}
+.backgroundImg {
+    background-size:center;
+    position:relative;
+}
+.cartContainer {
+    margin-left:150px;
+    background: #fff7ea;
+    width:1200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position:relative;
+}
+.cartTitle {
+    background:#fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+.cartTable {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.cartTable th, .cartTable td {
+    padding: 12px;
+    text-align: left;
+}
+.cartTable th {
+    background-color: #d3b894;
+    color: black;
+    font-size: 18px;
+}
+.cartTable td {
+    border-bottom: 1px solid #ddd;
+}
+.productInfo {
+    display: flex;
+    align-items: center;
+}
+.productInfoImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.deleteBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #e67e22;
+}
+.deleteBtn:hover {
+    color: #d35400;
+}
+.cartTotals {
+    margin-top: -200px;
+    margin-left:800px;
+    padding: 20px;
+    background: #CEBCA2;
+    border-radius: 8px;
+    text-align: center;
+    width:250px;
+    height:150px;
+}
+.cartTotals h3 {
+    font-size: 22px;
+}
+.cartTotals p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.cartTotals span {
+    color: #e67e22;
+}
+.checkoutBtn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background: #e67e22;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.checkoutBtn:hover {
+    background: #d35400;
+}
+.featureContainer {
+    margin-top:15px;
+    display: flex;
+    align-items: center;
+    max-width: 1520px;
+    padding-left:20px;
+    background-color: #fafae3;
+}
+.featureItem {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.featureIcon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.featureText {
+    display: flex;
+    flex-direction: column;
+}
+.featureTitle {
+    font-weight: bold;
+    font-size: 16px;
+}
+.featureDescription {
+    font-size: 14px;
+    color: #666;
+}
+  
